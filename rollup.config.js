@@ -6,7 +6,7 @@ import html from "@open-wc/rollup-plugin-html";
 import del from "rollup-plugin-delete";
 import { terser } from "rollup-plugin-terser";
 import url from "url";
-const pkg = require("./package.json");
+import pkg from "./package.json";
 
 let publicPath = "";
 
